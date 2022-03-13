@@ -99,9 +99,6 @@ public class JsonUtils {
                 increment = 0;
             }
             
-            System.out.print(chave+" : ");
-            System.out.println(valor);
-            
             temp = temp.substring(segunda+increment);
             
             if(!temp.startsWith(",") && !temp.startsWith(" ,") && !temp.startsWith(", ")){
